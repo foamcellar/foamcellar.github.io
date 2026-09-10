@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>冒险奇兵陈乔恩-节目资讯、嘉宾看点与观看指南</title>
+<meta name="description" content="冒险奇兵陈乔恩相关节目资讯汇总，梳理陈乔恩在冒险奇兵类综艺中的参与看点、节目形式、嘉宾阵容与观看方式，帮助观众快速了解这档户外冒险综艺。">
+<meta name="keywords" content="冒险奇兵陈乔恩,冒险奇兵,陈乔恩综艺,户外冒险节目,陈乔恩节目">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+    :root{
+        --ink:#1c2430;
+        --ink-soft:#4b5768;
+        --line:#e2e6ee;
+        --bg:#f5f7fb;
+        --card:#ffffff;
+        --brand:#e4572e;
+        --brand-deep:#b83c19;
+        --brand-soft:#fdece6;
+        --accent:#1f6fb2;
+        --accent-soft:#e8f2fa;
+        --radius:14px;
+        --shadow:0 6px 22px rgba(28,36,48,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{
+        font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+        color:var(--ink);
+        background:var(--bg);
+        line-height:1.75;
+        font-size:16px;
+    }
+    a{color:inherit;text-decoration:none;}
+    img{max-width:100%;display:block;}
+    ul{list-style:none;}
+
+    .wrap{
+        width:100%;
+        max-width:1160px;
+        margin:0 auto;
+        padding:0 20px;
+    }
+
+    /* ---------- 顶部 ---------- */
+    .site-header{
+        background:#fff;
+        border-bottom:1px solid var(--line);
+        position:sticky;
+        top:0;
+        z-index:50;
+    }
+    .header-inner{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:18px;
+        height:66px;
+    }
+    .logo{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        font-weight:800;
+        font-size:19px;
+        letter-spacing:.5px;
+        white-space:nowrap;
+    }
+    .logo-mark{
+        width:34px;height:34px;
+        border-radius:9px;
+        background:linear-gradient(135deg,var(--brand),#f08b52);
+        color:#fff;
+        display:grid;
+        place-items:center;
+        font-size:15px;
+        font-weight:800;
+        flex:0 0 auto;
+    }
+    .logo small{
+        display:block;
+        font-size:11px;
+        font-weight:500;
+        color:var(--ink-soft);
+        letter-spacing:1px;
+    }
+    .main-nav{display:flex;gap:6px;flex-wrap:wrap;}
+    .main-nav a{
+        padding:8px 14px;
+        border-radius:999px;
+        font-size:14.5px;
+        color:var(--ink-soft);
+        transition:.2s;
+    }
+    .main-nav a:hover{
+        background:var(--brand-soft);
+        color:var(--brand-deep);
+    }
+    .header-cta{
+        background:var(--brand);
+        color:#fff;
+        padding:9px 18px;
+        border-radius:999px;
+        font-size:14px;
+        font-weight:600;
+        white-space:nowrap;
+        transition:.2s;
+    }
+    .header-cta:hover{background:var(--brand-deep);}
+
+    /* ---------- 首屏 ---------- */
+    .hero{
+        background:
+            radial-gradient(900px 380px at 88% -10%,rgba(228,87,46,.18),transparent 60%),
+            radial-gradient(700px 320px at 5% 110%,rgba(31,111,178,.16),transparent 62%),
+            #fff;
+        border-bottom:1px solid var(--line);
+    }
+    .hero-inner{
+        display:grid;
+        grid-template-columns:1.35fr 1fr;
+        gap:44px;
+        align-items:center;
+        padding:56px 0 58px;
+    }
+    .kicker{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        background:var(--brand-soft);
+        color:var(--brand-deep);
+        font-size:13px;
+        font-weight:600;
+        padding:5px 14px;
+        border-radius:999px;
+        margin-bottom:18px;
+    }
+    .kicker::before{
+        content:"";
+        width:7px;height:7px;
+        border-radius:50%;
+        background:var(--brand);
+    }
+    .hero h1{
+        font-size:38px;
+        line-height:1.3;
+        font-weight:800;
+        letter-spacing:-.5px;
+        margin-bottom:16px;
+    }
+    .hero h1 em{
+        font-style:normal;
+        color:var(--brand);
+    }
+    .hero-lead{
+        font-size:16.5px;
+        color:var(--ink-soft);
+        max-width:56ch;
+        margin-bottom:24px;
+    }
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+    .btn{
+        display:inline-block;
+        padding:12px 24px;
+        border-radius:10px;
+        font-size:15px;
+        font-weight:600;
+        transition:.2s;
+        border:1px solid transparent;
+    }
+    .btn-primary{background:var(--brand);color:#fff;}
+    .btn-primary:hover{background:var(--brand-deep);}
+    .btn-ghost{background:#fff;color:var(--ink);border-color:var(--line);}
+    .btn-ghost:hover{border-color:var(--brand);color:var(--brand-deep);}
+
+    .hero-panel{
+        background:#fff;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        box-shadow:var(--shadow);
+        padding:22px 22px 18px;
+    }
+    .hero-panel h2{
+        font-size:15px;
+        font-weight:700;
+        margin-bottom:14px;
+        padding-bottom:10px;
+        border-bottom:1px dashed var(--line);
+    }
+    .quick-list li{
+        display:flex;
+        gap:12px;
+        padding:9px 0;
+        font-size:14.5px;
+        color:var(--ink-soft);
+        border-bottom:1px solid #f2f4f8;
+    }
+    .quick-list li:last-child{border-bottom:none;}
+    .quick-list b{
+        color:var(--brand);
+        font-weight:700;
+        flex:0 0 62px;
+        font-size:13.5px;
+    }
+
+    /* ---------- 通用区块 ---------- */
+    section{padding:52px 0;}
+    .section-head{
+        display:flex;
+        align-items:flex-end;
+        justify-content:space-between;
+        gap:20px;
+        margin-bottom:26px;
+        flex-wrap:wrap;
+    }
+    .section-head h2{
+        font-size:24px;
+        font-weight:800;
+        letter-spacing:-.3px;
+    }
+    .section-head h2 span{
+        display:block;
+        font-size:13.5px;
+        font-weight:500;
+        color:var(--ink-soft);
+        margin-top:6px;
+        letter-spacing:0;
+    }
+    .section-head .more{
+        font-size:14px;
+        color:var(--accent);
+        font-weight:600;
+    }
+
+    /* ---------- 节目概览 ---------- */
+    .overview{
+        display:grid;
+        grid-template-columns:1.6fr 1fr;
+        gap:30px;
+        align-items:start;
+    }
+    .prose p{
+        color:var(--ink-soft);
+        margin-bottom:14px;
+        font-size:15.5px;
+    }
+    .prose p strong{color:var(--ink);}
+    .fact-card{
+        background:var(--card);
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        padding:20px 22px;
+        box-shadow:var(--shadow);
+    }
+    .fact-card h3{
+        font-size:15px;
+        margin-bottom:12px;
+        color:var(--brand-deep);
+    }
+    .fact-list li{
+        display:flex;
+        justify-content:space-between;
+        gap:14px;
+        padding:9px 0;
+        font-size:14.5px;
+        border-bottom:1px solid #f2f4f8;
+        color:var(--ink-soft);
+    }
+    .fact-list li:last-child{border-bottom:none;}
+    .fact-list li span:last-child{color:var(--ink);font-weight:600;text-align:right;}
+
+    /* ---------- 看点卡片 ---------- */
+    .cards{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:20px;
+    }
+    .card{
+        background:var(--card);
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        padding:22px 20px;
+        transition:.22s;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+    .card:hover{
+        transform:translateY(-4px);
+        box-shadow:var(--shadow);
+        border-color:#f2d3c7;
+    }
+    .card-tag{
+        align-self:flex-start;
+        font-size:12px;
+        font-weight:700;
+        color:var(--accent);
+        background:var(--accent-soft);
+        padding:3px 10px;
+        border-radius:6px;
+        letter-spacing:.5px;
+    }
+    .card h3{font-size:17px;font-weight:700;}
+    .card p{font-size:14.5px;color:var(--ink-soft);}
+
+    /* ---------- 嘉宾阵容 ---------- */
+    .cast{
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        gap:18px;
+    }
+    .cast-item{
+        background:#fff;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        padding:18px;
+        text-align:center;
+        transition:.22s;
+    }
+    .cast-item:hover{border-color:#f0c8b9;box-shadow:var(--shadow);}
+    .avatar{
+        width:56px;height:56px;
+        margin:0 auto 12px;
+        border-radius:50%;
+        display:grid;
+        place-items:center;
+        font-size:18px;
+        font-weight:800;
+        color:#fff;
+        background:linear-gradient(135deg,#e4572e,#f2915f);
+    }
+    .cast-item:nth-child(2) .avatar{background:linear-gradient(135deg,#1f6fb2,#5aa6d8);}
+    .cast-item:nth-child(3) .avatar{background:linear-gradient(135deg,#2f8f6b,#67c39b);}
+    .cast-item:nth-child(4) .avatar{background:linear-gradient(135deg,#7a5cb8,#a98fe0);}
+    .cast-item h3{font-size:16px;margin-bottom:4px;}
+    .cast-item p{font-size:13.5px;color:var(--ink-soft);}
+
+    /* ---------- 观看方式 ---------- */
+    .watch{
+        background:#fff;
+        border-top:1px solid var(--line);
+        border-bottom:1px solid var(--line);
+    }
+    .steps{
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        gap:20px;
+        counter-reset:step;
+    }
+    .step{
+        position:relative;
+        padding:22px 20px 20px;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        background:#fcfdff;
+    }
+    .step::before{
+        counter-increment:step;
+        content:counter(step,decimal-leading-zero);
+        font-size:13px;
+        font-weight:800;
+        color:var(--brand);
+        letter-spacing:1px;
+        display:block;
+        margin-bottom:10px;
+    }
+    .step h3{font-size:16px;margin-bottom:8px;}
+    .step p{font-size:14px;color:var(--ink-soft);}
+
+    /* ---------- 榜单 ---------- */
+    .rank-wrap{
+        display:grid;
+        grid-template-columns:1.1fr .9fr;
+        gap:30px;
+        align-items:start;
+    }
+    .rank-list li{
+        display:flex;
+        gap:16px;
+        align-items:flex-start;
+        background:#fff;
+        border:1px solid var(--line);
+        border-radius:12px;
+        padding:15px 18px;
+        margin-bottom:12px;
+        transition:.2s;
+    }
+    .rank-list li:hover{border-color:#f0c8b9;transform:translateX(3px);}
+    .rank-no{
+        flex:0 0 30px;
+        height:30px;
+        border-radius:8px;
+        display:grid;
+        place-items:center;
+        font-weight:800;
+        font-size:14px;
+        background:var(--brand-soft);
+        color:var(--brand-deep);
+    }
+    .rank-list li:nth-child(1) .rank-no{background:var(--brand);color:#fff;}
+    .rank-list li:nth-child(2) .rank-no{background:#f7b267;color:#fff;}
+    .rank-list li:nth-child(3) .rank-no{background:#9dc0dd;color:#fff;}
+    .rank-body h3{font-size:15.5px;margin-bottom:3px;}
+    .rank-body p{font-size:13.5px;color:var(--ink-soft);}
+
+    .note-box{
+        background:var(--accent-soft);
+        border-left:4px solid var(--accent);
+        border-radius:0 12px 12px 0;
+        padding:18px 20px;
+        font-size:14.5px;
+        color:#22506f;
+    }
+    .note-box h3{font-size:15px;margin-bottom:8px;color:#17405c;}
+    .note-box p{margin-bottom:8px;}
+    .note-box p:last-child{margin-bottom:0;}
+
+    /* ---------- FAQ ---------- */
+    .faq{background:#fff;border-top:1px solid var(--line);}
+    .faq-list{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:16px;
+    }
+    .faq-item{
+        border:1px solid var(--line);
+        border-radius:12px;
+        padding:18px 20px;
+        background:#fcfdff;
+    }
+    .faq-item h3{
+        font-size:15.5px;
+        margin-bottom:8px;
+        display:flex;
+        gap:9px;
+        align-items:flex-start;
+    }
+    .faq-item h3::before{
+        content:"Q";
+        flex:0 0 22px;
+        height:22px;
+        border-radius:6px;
+        background:var(--brand-soft);
+        color:var(--brand-deep);
+        font-size:12.5px;
+        font-weight:800;
+        display:grid;
+        place-items:center;
+        margin-top:3px;
+    }
+    .faq-item p{font-size:14.5px;color:var(--ink-soft);padding-left:31px;}
+
+    /* ---------- 页脚 ---------- */
+    .site-footer{
+        background:#1c2430;
+        color:#a9b4c4;
+        padding:44px 0 26px;
+        font-size:14px;
+    }
+    .footer-grid{
+        display:grid;
+        grid-template-columns:1.4fr 1fr 1fr 1fr;
+        gap:28px;
+        padding-bottom:28px;
+        border-bottom:1px solid #2c3644;
+    }
+    .footer-brand h3{
+        color:#fff;
+        font-size:17px;
+        margin-bottom:10px;
+    }
+    .footer-brand p{font-size:13.5px;color:#8e9aab;line-height:1.8;}
+    .footer-col h4{
+        color:#fff;
+        font-size:14.5px;
+        margin-bottom:12px;
+    }
+    .footer-col li{margin-bottom:8px;font-size:13.5px;}
+    .footer-col a:hover{color:#f08b52;}
+    .footer-bottom{
+        padding-top:20px;
+        display:flex;
+        justify-content:space-between;
+        gap:16px;
+        flex-wrap:wrap;
+        font-size:13px;
+        color:#7d8899;
+    }
+
+    /* ---------- 响应式 ---------- */
+    @media (max-width:980px){
+        .hero-inner{grid-template-columns:1fr;gap:30px;padding:42px 0 46px;}
+        .hero h1{font-size:31px;}
+        .overview{grid-template-columns:1fr;}
+        .cards{grid-template-columns:repeat(2,1fr);}
+        .cast{grid-template-columns:repeat(2,1fr);}
+        .steps{grid-template-columns:repeat(2,1fr);}
+        .rank-wrap{grid-template-columns:1fr;}
+        .faq-list{grid-template-columns:1fr;}
+        .footer-grid{grid-template-columns:1fr 1fr;}
+    }
+    @media (max-width:640px){
+        body{font-size:15.5px;}
+        .header-inner{height:auto;flex-wrap:wrap;padding:12px 0;gap:12px;}
+        .main-nav{order:3;width:100%;justify-content:flex-start;gap:2px;}
+        .main-nav a{padding:6px 10px;font-size:13.5px;}
+        .header-cta{display:none;}
+        .hero h1{font-size:26px;}
+        .hero-lead{font-size:15.5px;}
+        section{padding:38px 0;}
+        .section-head h2{font-size:20px;}
+        .cards{grid-template-columns:1fr;}
+        .cast{grid-template-columns:1fr 1fr;}
+        .steps{grid-template-columns:1fr;}
+        .footer-grid{grid-template-columns:1fr;}
+        .footer-bottom{flex-direction:column;}
+    }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="wrap header-inner">
+        <div class="logo">
+            <span class="logo-mark">冒</span>
+            <span>冒险奇兵观察站<small>户外冒险综艺资讯</small></span>
+        </div>
+        <nav class="main-nav" aria-label="主导航">
+            <a href="#overview">节目概览</a>
+            <a href="#highlights">看点解析</a>
+            <a href="#cast">嘉宾阵容</a>
+            <a href="#watch">观看指南</a>
+            <a href="#rank">热门推荐</a>
+            <a href="#faq">常见问题</a>
+        </nav>
+        <a class="header-cta" href="#overview">快速了解</a>
+    </div>
+</header>
+
+<main>
+
+    <!-- 首屏 -->
+    <section class="hero">
+        <div class="wrap hero-inner">
+            <div>
+                <span class="kicker">冒险奇兵 · 嘉宾专题</span>
+                <h1>冒险奇兵陈乔恩：户外冒险综艺里的<em>嘉宾看点</em>与观看指南</h1>
+                <p class="hero-lead">
+                    如果你在搜索“冒险奇兵陈乔恩”，多半是想知道陈乔恩在《冒险奇兵》这类户外冒险节目中的参与情况、节目形式和看点在哪里。
+                    本页把节目定位、嘉宾角色、观看方式与常见疑问集中整理，方便你快速判断值不值得看、该从哪里看起。
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#highlights">查看核心看点</a>
+                    <a class="btn btn-ghost" href="#watch">如何观看</a>
+                </div>
+            </div>
+            <aside class="hero-panel">
+                <h2>一分钟速览</h2>
+                <ul class="quick-list">
+                    <li><b>节目类型</b><span>户外竞技 / 冒险挑战类综艺</span></li>
+                    <li><b>核心嘉宾</b><span>陈乔恩（演员，常驻或特邀参与）</span></li>
+                    <li><b>主要看点</b><span>体力挑战、团队协作、临场反应</span></li>
+                    <li><b>适合人群</b><span>喜欢户外竞技与明星真人秀的观众</span></li>
+                    <li><b>观看方式</b><span>以正版视频平台播出信息为准</span></li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <!-- 节目概览 -->
+    <section id="overview">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>节目概览：冒险奇兵是一档什么样的节目<span>先弄清楚节目定位，再看嘉宾表现会更有代入感</span></h2>
+            </div>
+            <div class="overview">
+                <div class="prose">
+                    <p>
+                        《冒险奇兵》属于户外冒险竞技类综艺的范畴，节目通常把嘉宾带到自然环境中，通过一系列体能、智力和团队协作任务推动进程。
+                        与棚内综艺相比，这类节目更依赖真实环境带来的不确定性，嘉宾的反应、配合和临场判断往往就是内容本身。
+                    </p>
+                    <p>
+                        <strong>陈乔恩</strong>是华语影视圈的知名演员，长期活跃于偶像剧与都市剧领域，也参与过多档综艺节目。
+                        她出现在冒险类节目中的价值，主要不在于专业竞技能力，而在于<strong>演员身份与户外挑战之间的反差</strong>：
+                        观众既能看到她在陌生环境里的真实反应，也能看到演员在镜头前之外的另一种状态。
+                    </p>
+                    <p>
+                        需要说明的是，不同平台、不同季数的节目在赛制、嘉宾配置和播出安排上会有差异。
+                        本文侧重梳理这类节目的通用结构与观看思路，具体到某一季的播出时间、集数和平台，建议以官方发布的信息为准。
+                    </p>
+                </div>
+                <aside class="fact-card">
+                    <h3>基础信息参考</h3>
+                    <ul class="fact-list">
+                        <li><span>节目类别</span><span>户外冒险竞技综艺</span></li>
+                        <li><span>常见形式</span><span>任务挑战 + 团队对抗</span></li>
+                        <li><span>嘉宾构成</span><span>演员、歌手、综艺常客混合</span></li>
+                        <li><span>单集时长</span><span>通常为常规综艺时长</span></li>
+                        <li><span>播出渠道</span><span>以正版视频平台为准</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- 看点解析 -->
+    <section id="highlights" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>核心看点：为什么值得看陈乔恩的这部分<span>从人物、赛制、氛围三个角度拆解</span></h2>
+                <a class="more" href="#rank">查看热门推荐 →</a>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <span class="card-tag">人物反差</span>
+                    <h3>演员走进野外环境</h3>
+                    <p>陈乔恩的公众形象多来自影视剧角色，当她被放进泥地、山路或水上任务里，形象与环境的落差本身就构成看点，也更容易产生真实的情绪反应。</p>
+                </article>
+                <article class="card">
+                    <span class="card-tag">团队协作</span>
+                    <h3>配合与分工的临场感</h3>
+                    <p>冒险类节目常以小组形式推进，嘉宾需要在短时间内商量策略、分配体力。谁负责冲、谁负责稳，往往比单纯输赢更有意思。</p>
+                </article>
+                <article class="card">
+                    <span class="card-tag">体能挑战</span>
+                    <h3>任务强度带来的张力</h3>
+                    <p>攀爬、涉水、负重搬运等环节对体力要求较高，嘉宾能否坚持完成，是节目节奏起伏的主要来源。</p>
+                </article>
+                <article class="card">
+                    <span class="card-tag">临场反应</span>
+                    <h3>意外状况下的应对</h3>
+                    <p>户外环境不可控，天气、地形和道具都可能出状况。嘉宾如何处理突发问题，往往比剧本设计更耐看。</p>
+                </article>
+                <article class="card">
+                    <span class="card-tag">群像互动</span>
+                    <h3>嘉宾之间的化学反应</h3>
+                    <p>不同背景的嘉宾凑在一起，性格差异会自然显现。陈乔恩与综艺常驻嘉宾之间的互动，是很多观众追节目的原因之一。</p>
+                </article>
+                <article class="card">
+                    <span class="card-tag">节奏轻松</span>
+                    <h3>紧张与轻松交替</h3>
+                    <p>冒险类综艺通常不会全程高压，任务之间会穿插休息、聊天和复盘环节，适合放松时观看，不必全程紧绷。</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 嘉宾阵容 -->
+    <section id="cast">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>嘉宾阵容与角色分工<span>冒险类节目通常由不同类型的嘉宾共同撑起节奏</span></h2>
+            </div>
+            <div class="cast">
+                <div class="cast-item">
+                    <div class="avatar">陈</div>
+                    <h3>陈乔恩</h3>
+                    <p>演员出身，节目中的情绪表达与临场反应是主要看点。</p>
+                </div>
+                <div class="cast-item">
+                    <div class="avatar">体</div>
+                    <h3>体能担当</h3>
+                    <p>负责冲刺、负重等高强度环节，常成为任务推进的关键。</p>
+                </div>
+                <div class="cast-item">
+                    <div class="avatar">智</div>
+                    <h3>策略担当</h3>
+                    <p>擅长分析规则、规划路线，在解谜与分配任务时作用明显。</p>
+                </div>
+                <div class="cast-item">
+                    <div class="avatar">氛</div>
+                    <h3>气氛担当</h3>
+                    <p>负责调节节奏、制造笑点，让高强度任务之间保持轻松感。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 观看指南 -->
+    <section id="watch" class="watch">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>观看指南：从哪里看、按什么顺序看<span>四步理清观看思路，避免被零散片段带偏</span></h2>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <h3>确认播出平台</h3>
+                    <p>先确认节目由哪家正版平台播出，再在其客户端或网页端搜索节目名称，避免进入非官方来源。</p>
+                </div>
+                <div class="step">
+                    <h3>核对季数与集数</h3>
+                    <p>冒险类节目常有多个季数，建议先看清楚季数与集数编号，再决定从哪一集开始看。</p>
+                </div>
+                <div class="step">
+                    <h3>按顺序或按嘉宾看</h3>
+                    <p>想完整了解赛制就按顺序看；只想看陈乔恩的部分，可先找嘉宾参与集数再回看前后内容。</p>
+                </div>
+                <div class="step">
+                    <h3>配合花絮补充</h3>
+                    <p>正片之外的幕后花絮、采访片段，往往能补充任务背后的准备过程，理解会更完整。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 榜单与提示 -->
+    <section id="rank">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>热门内容推荐<span>按观看需求整理的几类内容方向</span></h2>
+            </div>
+            <div class="rank-wrap">
+                <ul class="rank-list">
+                    <li>
+                        <span class="rank-no">01</span>
+                        <div class="rank-body">
+                            <h3>陈乔恩参与集数合集</h3>
+                            <p>适合只想看她表现、时间有限的观众，先锁定嘉宾出场集数。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rank-no">02</span>
+                        <div class="rank-body">
+                            <h3>高难度任务片段</h3>
+                            <p>体能挑战与极限环节集中观看，节奏紧凑，适合碎片时间。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rank-no">03</span>
+                        <div class="rank-body">
+                            <h3>团队协作名场面</h3>
+                            <p>关注嘉宾如何分工、沟通与调整策略，是理解节目赛制的入口。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rank-no">04</span>
+                        <div class="rank-body">
+                            <h3>幕后花絮与采访</h3>
+                            <p>补充正片之外的信息，了解录制环境与嘉宾的真实感受。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rank-no">05</span>
+                        <div class="rank-body">
+                            <h3>同类户外冒险综艺</h3>
+                            <p>如果喜欢这类节目形式，可以顺带了解其他户外竞技类综艺。</p>
+                        </div>
+                    </li>
+                </ul>
+                <aside class="note-box">
+                    <h3>观看提示</h3>
+                    <p>户外冒险类节目涉及攀爬、涉水、夜间行动等环节，录制现场通常配有安全团队与应急预案，普通观众请勿在无保护条件下模仿节目中的动作。</p>
+                    <p>节目内容、嘉宾名单与播出安排可能随官方调整而变化，请以平台正式发布的信息为准，不轻信来源不明的“剧透”或“抢先版”。</p>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>常见问题<span>关于冒险奇兵与陈乔恩，观众最常问的几件事</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>陈乔恩是《冒险奇兵》的常驻嘉宾吗？</h3>
+                    <p>不同季数的嘉宾配置会有差异，是否常驻需要以具体季数的官方名单为准。建议先查看该季节目的嘉宾介绍页面。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>这档节目主要看什么？</h3>
+                    <p>核心是户外任务挑战与嘉宾的真实反应。赛制、团队配合和临场状况共同构成内容，嘉宾个人表现只是其中一部分。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>在哪里可以看到正片？</h3>
+                    <p>请通过节目官方公布的播出平台观看。正版平台通常提供完整集数与清晰画质，也能避免版权与安全问题。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>需要按顺序看吗？</h3>
+                    <p>如果关注赛制推进和整体走向，建议按顺序观看；如果只想看某位嘉宾，可以按集数挑选，但部分任务背景可能需要前后对照。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>这类节目适合什么时间看？</h3>
+                    <p>节奏相对轻松，适合休息或通勤时观看。涉及高强度任务的段落情绪较紧张，可以根据自己的偏好选择。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>节目里的挑战动作可以自己尝试吗？</h3>
+                    <p>不建议。节目录制有专业安全团队与保护措施，日常环境中缺乏同等条件，模仿存在受伤风险。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>冒险奇兵观察站</h3>
+                <p>围绕户外冒险类综艺的节目资讯与观看指南，帮助观众更清楚地了解节目形式、嘉宾看点与观看方式。</p>
+            </div>
+            <div class="footer-col">
+                <h4>内容导航</h4>
+                <ul>
+                    <li><a href="#overview">节目概览</a></li>
+                    <li><a href="#highlights">看点解析</a></li>
+                    <li><a href="#cast">嘉宾阵容</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>观看相关</h4>
+                <ul>
+                    <li><a href="#watch">观看指南</a></li>
+                    <li><a href="#rank">热门推荐</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>温馨提示</h4>
+                <ul>
+                    <li>以官方播出信息为准</li>
+                    <li>支持正版内容</li>
+                    <li>请勿模仿危险动作</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>本站为综艺资讯类内容页面，与节目制作方及播出平台无隶属关系。</span>
+            <span>内容仅供参考，具体信息以官方发布为准。</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // 导航平滑滚动（兼容不支持 scroll-behavior 的浏览器）
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            var id = this.getAttribute('href');
+            if (id.length < 2) return;
+            var target = document.querySelector(id);
+            if (!target) return;
+            e.preventDefault();
+            var top = target.getBoundingClientRect().top + window.pageYOffset - 76;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+        });
+    });
+</script>
+
+</body>
+  </html>
